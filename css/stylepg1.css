@@ -30,10 +30,12 @@
     text-align: center;
     word-break:break-word;
     vertical-align: middle;
+    object-fit: contain;
   }
 
   .bg-img{
     opacity: 0.2;
+    object-fit: contain;
   }
 
   .grid-item:hover{
