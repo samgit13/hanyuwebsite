@@ -44,6 +44,7 @@
 
     #card2{
         align-items: center;
+        background-image: url('/hanyuwebsite/img/yangtze.jpg');
     }
 
     #card2::before{
@@ -53,6 +54,7 @@
 
     #card3{
         align-items: center;
+        background-image: url('/hanyuwebsite/img/wall.jpg');
     }
 
     #card3::before{
@@ -62,6 +64,7 @@
 
     #card4{
         align-items: center;
+        background-image: url('/hanyuwebsite/img/lunar-new-year-8-79db07041a3547ed8f3ba616a48e28c6.jpg');
     }
 
     #card4::before{
