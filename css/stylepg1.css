@@ -32,48 +32,9 @@
     vertical-align: middle;
   }
 
-    #card1{
-        position: relative;
-    }
-
-    #card1::before{
-        position: absolute;
-        background-image: url('/hanyuwebsite/img/main-qimg-d8b68e650a817a1b0a31d292cb4af740-lq.jpeg');
-        opacity:0.2;
-    }
-
-    #card2{
-        position: relative;
-        align-items: center;
-    }
-
-    #card2::before{
-        position: absolute;
-        background-image: url('/hanyuwebsite/img/yangtze.jpg');
-        opacity:0.2;
-    }
-
-    #card3{
-        position: relative;
-        align-items: center;
-    }
-
-    #card3::before{
-        position: absolute;
-        background-image: url('/hanyuwebsite/img/wall.jpg');
-        opacity:0.2;
-    }
-
-    #card4{
-        position: relative;
-        align-items: center;
-    }
-
-    #card4::before{
-        position: absolute;
-        background-image: url('/hanyuwebsite/img/lunar-new-year-8-79db07041a3547ed8f3ba616a48e28c6.jpg');
-        opacity:0.2;
-    }
+  .bg-img{
+    opacity: 0.2;
+  }
 
   .grid-item:hover{
     transform: scale(1.1);
