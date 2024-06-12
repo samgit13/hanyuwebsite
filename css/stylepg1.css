@@ -34,10 +34,11 @@
 
     #card1{
         align-items: center;
+        background-image: url('/hanyuwebsite/img/main-qimg-d8b68e650a817a1b0a31d292cb4af740-lq.jpeg');
     }
 
     #card1::before{
-        background-image: url('/hanyuwebsite/img/main-qimg-d8b68e650a817a1b0a31d292cb4af740-lq.jpeg');
+        
         opacity:0.2;
     }
 
