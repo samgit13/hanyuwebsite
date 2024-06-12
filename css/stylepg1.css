@@ -30,19 +30,24 @@
     text-align: center;
     word-break:break-word;
     vertical-align: middle;
+    
   }
 
-    #card1{
+    #card1::before{
         background-image: url('/hanyuwebsite/img/main-qimg-d8b68e650a817a1b0a31d292cb4af740-lq.jpg');
+        opacity: 0.2;
     }
-    #card2{
+    #card2::before{
         background-image: url('/hanyuwebsite/img/yangtze.jpg');
+        opacity: 0.2;
     }
-    #card3{
+    #card3::before{
         background-image: url('/hanyuwebsite/img/wall.jpg');
+        opacity: 0.2;
     }
-    #card4{
+    #card4::before{
         background-image: url('/hanyuwebsite/img/lunar-new-year-8-79db07041a3547ed8f3ba616a48e28c6.jpg');
+        opacity: 0.2;
     }
 
   .grid-item:hover{
@@ -50,7 +55,10 @@
   }
 
   .grid-text{
-    text-decoration:none;color: black;
+    text-decoration:none;color: white;text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
