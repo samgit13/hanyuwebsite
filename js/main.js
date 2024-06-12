@@ -1,3 +1,4 @@
+
 class MyHeader extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `<nav class="navbar navbar-expand-sm navbar-dark " >
@@ -9,8 +10,8 @@ class MyHeader extends HTMLElement{
             </button>
             <div class="collapse navbar-collapse" id="navbarID" >
                 <div class="navbar-nav" >
-                    <a class="nav-link"  href="csswebpage.html" style="color:white ;">Home</a>
-                    <a class="nav-link active" aria-current="page"  href="#" style="color:white ;" >About China</a>
+                    <a class="nav-link"  href="index.html" style="color:white ;">Home</a>
+                    <a class="nav-link   href="csswebpage2.html" style="color:white ;" >About China</a>
                     <a class="nav-link"  href="csswebpage3.html" style="color:white ;">Learn Hanzi</a>
                     <a class="nav-link"  href="csswebpage4.html" style="color:white ;">Grammar</a>
                     <a class="nav-link"  href="csswebpage5.html" style="color:white ;">Vocabulary</a>
@@ -18,30 +19,7 @@ class MyHeader extends HTMLElement{
                 </div>
             </div>
         </div>
-    </nav>
-    <style>
-    .navbar{
-    background-color: darkcyan;
-    padding: 10px;
-    opacity: 90% ;
-    float: none;
-    }
-
-    .navbar .collapse .navbar-nav .nav-link{
-        padding: 10px;
-    }
-
-    .nav-link:hover{
-        
-        background-color: black;
-        border-radius: 5px;
-    }
-
-    .active{
-        background-color: black;
-        border-radius: 5px;
-    }
-    </style>`
+    </nav>`
     }
 }
 
