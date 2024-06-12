@@ -85,7 +85,8 @@ h4{text-align: center;font-weight:bolder;
 }
 
 .nav-link:hover{
-    text-decoration: underline;
+    background-color: black;
+    border-radius: 5px;
 }
 
 .active{
