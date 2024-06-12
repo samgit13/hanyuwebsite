@@ -18,38 +18,28 @@
     grid-template-columns:repeat(4, minmax(0, 1fr));
     grid-template-rows:repeat(1, minmax(0, 1fr)) ;
     padding: 150px 250px 250px 250px;
+    height: 800px;
   }
   .grid-item {
     border-radius: 10px;
     box-shadow: 1px 1px 3px darkslategray;
-    padding: 40px;
-    padding-top: 80px;
-    padding-bottom: 80px;
     margin: 15px;
     font-size: 25px;
     text-align: center;
     word-break:break-word;
     vertical-align: middle;
-    
+    object-fit:cover;
+    overflow: hidden;
+    align-content: space-around;
   }
 
-    #card1::before{
-
-        background-image: url('/hanyuwebsite/img/main-qimg-d8b68e650a817a1b0a31d292cb4af740-lq.jpg');
-        opacity: 0.2;
-    }
-    #card2::before{
-        background-image: url('/hanyuwebsite/img/yangtze.jpg');
-        opacity: 0.2;
-    }
-    #card3::before{
-        background-image: url('/hanyuwebsite/img/wall.jpg');
-        opacity: 0.2;
-    }
-    #card4::before{
-        background-image: url('/hanyuwebsite/img/lunar-new-year-8-79db07041a3547ed8f3ba616a48e28c6.jpg');
-        opacity: 0.2;
-    }
+  .bg-img{
+    opacity: 0.5;
+    object-fit: cover;
+    max-width: auto;
+    max-height:fit-content;
+    background-blend-mode: overlay;
+}
 
   .grid-item:hover{
     transform: scale(1.1);
@@ -61,6 +51,7 @@
     1px -1px 0 #000,
     -1px -1px 0 #000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: +1;
 }
 
 .background-image{
@@ -114,12 +105,6 @@ h4{text-align: center;font-weight:bolder;
     border-radius: 5px;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    padding: 10px;
-}
 
 video{
     max-width: auto;
