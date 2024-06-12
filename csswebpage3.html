@@ -1,0 +1,181 @@
+<html>
+<head>
+    <title>Hanzi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href="./css/stylepg3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function show1(){
+            document.getElementById('im1').style.display="block";
+            document.getElementById('bu2').style.display="block";
+            document.getElementById('bu1').style.display="none";
+        }
+        function show2(){
+            document.getElementById('im1').style.display="none";
+            document.getElementById('bu1').style.display="block";
+            document.getElementById('bu2').style.display="none";
+        }
+        function show3(){
+            document.getElementById('im2').style.display="block";
+            document.getElementById('bu4').style.display="block";
+            document.getElementById('bu3').style.display="none";
+        }
+        function show4(){
+            document.getElementById('im2').style.display="none";
+            document.getElementById('bu3').style.display="block";
+            document.getElementById('bu4').style.display="none";
+        }
+        function show5(){
+            document.getElementById('im3').style.display="block";
+            document.getElementById('bu6').style.display="block";
+            document.getElementById('bu5').style.display="none";
+        }
+        function show6(){
+            document.getElementById('im3').style.display="none";
+            document.getElementById('bu5').style.display="block";
+            document.getElementById('bu6').style.display="none";
+        }
+        function show7(){
+            document.getElementById('im4').style.display="block";
+            document.getElementById('bu8').style.display="block";
+            document.getElementById('bu7').style.display="none";
+        }
+        function show8(){
+            document.getElementById('im4').style.display="none";
+            document.getElementById('bu7').style.display="block";
+            document.getElementById('bu8').style.display="none";
+        }
+        function show9(){
+            document.getElementById('im5').style.display="block";
+            document.getElementById('bu10').style.display="block";
+            document.getElementById('bu9').style.display="none";
+        }
+        function show10(){
+            document.getElementById('im5').style.display="none";
+            document.getElementById('bu9').style.display="block";
+            document.getElementById('bu10').style.display="none";
+        }
+        function show11(){
+            document.getElementById('im6').style.display="block";
+            document.getElementById('bu12').style.display="block";
+            document.getElementById('bu11').style.display="none";
+        }
+        function show12(){
+            document.getElementById('im6').style.display="none";
+            document.getElementById('bu11').style.display="block";
+            document.getElementById('bu12').style.display="none";
+        }
+        function show13(){
+            document.getElementById('im7').style.display="block";
+            document.getElementById('bu14').style.display="block";
+            document.getElementById('bu13').style.display="none";
+        }
+        function show14(){
+            document.getElementById('im7').style.display="none";
+            document.getElementById('bu13').style.display="block";
+            document.getElementById('bu14').style.display="none";
+        }
+    </script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark " >
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#">Welcome! </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarID" >
+                <div class="navbar-nav" >
+                    <a class="nav-link"  href="csswebpage.html" style="color:white ;">Home</a>
+                    <a class="nav-link"  href="csswebpage2.html" style="color:white ;" >About China</a>
+                    <a class="nav-link active" aria-current="page" href="#" style="color:white ;">Learn Hanzi</a>
+                    <a class="nav-link"  href="csswebpage4.html" style="color:white ;">Grammar</a>
+                    <a class="nav-link"  href="csswebpage5.html" style="color:white ;">Vocabulary</a>
+                    <a class="nav-link"  href="csswebpage6.html" style="color:white ;">Popular Media</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <br>
+    <div class="a" width="100%">
+        <div class="b" width="50%"><img src="./img/emperor.png" alt="chibi" height="200px" style="position:fixed ;"></div>
+        <div class="c" width="50%"><h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; color: white;
+            text-shadow: 1px 1px 1px rgb(0, 0, 0); padding-left: 150px;font-weight: bolder;">Chinese Characters</h2>
+        </div>
+    </div>
+     <br><br>
+    
+    <table  style="text-align:center ;" align="center">
+        <tr style="font-weight:bold ; font-size:large">
+            <th>Word</th>
+            <th width="100" >Pinyin</th>
+            <th width="270">Word Meaning</th>
+            <th width="120">How to Write</th>
+        </tr>
+        <tr height="130">
+            <td><img src="./img/1.jpg" alt="wo" height="100" ></td>
+            <td>Wo</td>
+            <td>I/Me</td>
+            <td align="center"><input type="button" id="bu1" value=" See stroke order " onclick="show1();"/>
+                <img id="im1" src="./img/1.gif" alt="wo" height="100" style="display:none ;">
+                <input type="button" id="bu2" value="Hide stroke order" style="display:none ;" onclick="show2();"/></td>
+        </tr>
+        <tr height="130">
+            <td><img src="./img/2.jpg" alt="ma?" height="100"></td>
+            <td>Ma?</td>
+            <td>Question Word. Added at the end of a question</td>
+            <td align="center"><input type="button" id="bu3" value=" See stroke order " onclick="show3();"/>
+                <img id="im2" src="./img/2.gif" alt="ma?" height="100" style="display:none ;">
+                <input type="button" id="bu4" value="Hide stroke order" style="display:none ;" onclick="show4();"/></td>
+        </tr>
+        <tr height="130">
+            <td><img src="./img/3.jpg" alt="bu" height="100"></td>
+            <td>Bu</td>
+            <td>No/Not</td>
+            <td align="center"><input type="button" id="bu5" value=" See stroke order " onclick="show5();"/>
+                <img id="im3" src="./img/3.gif" alt="no/not" height="100" style="display:none ;">
+                <input type="button" id="bu6" value="Hide stroke order" style="display:none ;" onclick="show6();"/></td>
+        </tr>
+        <tr height="130">
+            <td><img src="./img/4.jpg" alt="ni" height="100"></td>
+            <td>Ni</td>
+            <td>You(informal)</td>
+            <td align="center"><input type="button" id="bu7" value=" See stroke order " onclick="show7();"/>
+                <img id="im4" src="./img/4.gif" alt="ni" height="100" style="display:none ;">
+                <input type="button" id="bu8" value="Hide stroke order" style="display:none ;" onclick="show8();"/></td>
+        </tr>
+        <tr height="130">
+            <td><img src="./img/5.jpg" alt="hao" height="100" width="100"></td>
+            <td>Hao</td>
+            <td>Good</td>
+            <td align="center"><input type="button" id="bu9" value=" See stroke order " onclick="show9();"/>
+                <img id="im5" src="./img/5.gif" alt="hao" height="100" style="display:none ;">
+                <input type="button" id="bu10" value="Hide stroke order" style="display:none ;" onclick="show10();"/></td>
+        </tr>
+        <tr height="130">
+            <td><img src="./img/6.jpg" alt="hen" height="100"></td>
+            <td>Hen</td>
+            <td>Very</td>
+            <td align="center"><input type="button" id="bu11" value=" See stroke order " onclick="show11();"/>
+                <img id="im6" src="./img/6.gif" alt="hen" height="100" style="display:none ;">
+                <input type="button" id="bu12" value="Hide stroke order" style="display:none ;" onclick="show12();"/></td>
+        </tr>
+        <tr height="130">
+            <td><img src="./img/7.png" alt="guo" height="100"></td>
+            <td>Guo</td>
+            <td>Country</td>
+            <td align="center"><input type="button" id="bu13" value=" See stroke order " onclick="show13();"/>
+                <img id="im7" src="7.gif" alt="guo" height="100" style="display:none ;">
+                <input type="button" id="bu14" value="Hide stroke order" style="display:none ;" onclick="show14();"/></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{background-image: url('./img/dede (2).png');
+    background-size: cover;
+}
+
+table{
+    border-color:black;
+    align-items: center;
+    background-color:rgba(255,253,298, 0.8);
+
+
+}
+
+th,td{
+    border: 10px;
+    text-align: center;
+    text-size-adjust: 16;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+td{
+    padding: 20px;
+    height: 150px;
+}
+
+th{
+    padding: 20px;
+    border: 2px solid;
+}
+
+#im1{
+    display: none;
+    box-align: center;
+}
+
+.navbar{
+    background-color: darkcyan;
+    padding: 10px;
+    
+}
+
+.navbar .collapse .navbar-nav .nav-link{
+    padding: 10px;
+}
+
+.navbar .collapse .navbar-nav .nav-link:hover{
+    background-color: black;
+}
+
+
+
+.active{
+    background-color: black;
+    border-radius: 5px;
+}
+
+h2,p{
+    display: inline-block;
+}
+
+
+
+
+/*table,th,td{
+    border: 1px solid;
+}
