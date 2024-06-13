@@ -26,29 +26,34 @@
     margin: 15px;
     font-size: 25px;
     text-align: center;
-    word-break:break-word;
-    vertical-align: middle;
     object-fit:cover;
     overflow: hidden;
-    align-content: space-around;
+    position: relative;
+    
+  }
+
+  .grid-item:hover{
+    transform: scale(1.1);
+  }
+
+  .textgrid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
   }
 
   .bg-img{
     opacity: 0.5;
     object-fit: cover;
     max-width: auto;
-    max-height:fit-content;
-    background-blend-mode: overlay;
+    max-height:stretch;
+    position: absolute;
+    z-index:1;
+    top: 0;
+    left: 0;
 }
-
-  .bg-img{
-    opacity: 0.5;
-    object-fit: contain;
-  }
-
-  .grid-item:hover{
-    transform: scale(1.1);
-  }
 
   .grid-text{
     text-decoration:none;color: white;text-shadow: -1px 1px 0 #000,
@@ -57,6 +62,10 @@
     -1px -1px 0 #000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     z-index: +1;
+}
+
+.grid-text:hover{
+    color:white;
 }
 
 .background-image{
